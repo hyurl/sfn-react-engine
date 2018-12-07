@@ -1,0 +1,33 @@
+{
+  "name": "sfn-react-engine",
+  "version": "0.1.0",
+  "description": "React template engine for SFN framework.",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyurl/sfn-react-engine.git"
+  },
+  "keywords": [
+    "sfn",
+    "react"
+  ],
+  "author": "Ayon Lee <i@hyurl.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyurl/sfn-react-engine/issues"
+  },
+  "homepage": "https://github.com/hyurl/sfn-react-engine#readme",
+  "dependencies": {
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.12"
+  }
+}
