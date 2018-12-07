@@ -1,9 +1,10 @@
 # Sfn-React-Engine
 
-**React template engine for [sfn](https://github.com/hyurl/sfn) framework.**
+**React template engine for [SFN](https://github.com/hyurl/sfn) framework.**
 
-This engine only perform rendering function on server-side, for more information
-about **React**, please visit [https://reactjs.org/](https://reactjs.org/).
+This engine only performs rendering function on server-side, for more 
+information about **React**, please visit 
+[https://reactjs.org](https://reactjs.org).
 
 ## Install
 
@@ -41,7 +42,7 @@ import * as React from "react";
 export default class extends React.Component<{ name: string }> {
     render() {
         // Note that `this.props` actually contains two properties `name` and 
-        // `i18n` which is auto-patched by HttpController.view() method.
+        // `i18n` which is auto-assigned by HttpController.view() method.
         return (
             <h1>Hello, {this.props.name}!</h1>
         )
